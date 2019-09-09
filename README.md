@@ -11,8 +11,8 @@ We utilized [Kaggle](https://www.kaggle.com/) to find data sources (csv files) r
 
 ## Data Cleanup & Analysis
 
-∙ Remove unneeded columns from the csv files, including numeric codes for districts and neighborhoods (we already had the names of both and felt that provided more information). We also renamed several columns to make the database upload cleaner and more efficient.
-∙ Created a serial ID column to provide a unique identifier and become the primary key once the information was loaded into the database.
+∙ Remove unneeded columns from the csv files, including numeric codes for districts and neighborhoods (we already had the names of both and felt that provided more information). We also renamed several columns to make the database upload cleaner and more efficient.<br>
+∙ Created a serial ID column to provide a unique identifier and become the primary key once the information was loaded into the database.<br>
 ∙ Added both of the cleaned CSVs into a Postgres database using pgAdmin. 
 
 ## Project Report
